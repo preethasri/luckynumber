@@ -1,0 +1,101 @@
+    * {
+        margin: 0;
+    }
+    
+     :root {
+        --primary-color: #A6D976;
+        --secondary-color: #0093d5;
+    }
+    
+    body {
+        text-align: center;
+        background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190221/ourmid/pngtree-boutique-box-gold-golden-gift-booth-image_16526.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    
+    .firstsection {
+        height: 20vh;
+        font-weight: bold;
+        font-size: 5vh;
+    }
+    
+    .privacy {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 5px;
+        font-size: 3vh;
+        font-weight: bold;
+        background-color: #BC9843;
+        width: 50%;
+        margin: auto;
+        height: 1vh;
+    }
+    
+    .h1 {
+        font-size: 5vh;
+        font-weight: bold;
+    }
+    
+    .heading {
+        margin-top: 2vh;
+        margin-bottom: 6vh;
+        font-weight: bold;
+    }
+    
+    .small {
+        margin: 2vh 0;
+    }
+    
+    input {
+        display: block;
+        margin-top: 1vh;
+        margin-bottom: 2vh;
+        padding: 15px 10px;
+        width: 30%;
+        height: 5vh;
+        margin: auto;
+    }
+    
+    button {
+        display: block;
+        margin: 2vh 0;
+        padding: 5px 10px;
+        margin: auto;
+        width: 10%;
+        height: 5vh;
+        font-weight: bold;
+    }
+    
+    label {
+        font-size: 3vh;
+    }
+    
+    output {
+        font-size: 4vh;
+        margin: auto;
+        text-align: ;
+    }
+    
+    .footer {
+        align-items: center;
+        background-color: #BC9843;
+        color: black;
+        list-style: none;
+        height: 10vh;
+    }
+    
+    .footer h1 {
+        font-size: 3vh;
+        font-weight: bold;
+    }
+    
+    a {
+        margin-left: 4vw;
+        margin-right: 4vh;
+        color: black;
+        font-weight: bold;
+        font-size: 3vh;
+    }

@@ -4,12 +4,10 @@
     
      :root {
         --primary-color: #A6D976;
-        --secondary-color: #0093d5;
     }
     
     body {
         text-align: center;
-        background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190221/ourmid/pngtree-boutique-box-gold-golden-gift-booth-image_16526.jpg");
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -21,22 +19,11 @@
         font-size: 5vh;
     }
     
-    .privacy {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 20px 5px;
-        font-size: 3vh;
-        font-weight: bold;
-        background-color: #BC9843;
-        width: 50%;
-        margin: auto;
-        height: 1vh;
-    }
-    
     .h1 {
         font-size: 5vh;
         font-weight: bold;
+        background-color: #A6D976;
+        height: 6rem;
     }
     
     .heading {
@@ -81,10 +68,11 @@
     
     .footer {
         align-items: center;
-        background-color: #BC9843;
+        background-color: #A6D976;
         color: black;
         list-style: none;
-        height: 10vh;
+        height: 6rem;
+        margin-top: 10rem;
     }
     
     .footer h1 {
